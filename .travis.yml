@@ -3,7 +3,7 @@ dist: bionic
 env:
   global:
     - IMAGE_NAME=pkskubeflow/ml-pipeline-frontend:0.2.5
-    - CODE_TAG=0.2.5
+    - CODE_TAG=master
 
 arch:
   - arm64
