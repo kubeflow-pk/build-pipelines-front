@@ -12,7 +12,7 @@ services:
   - docker
 
 before_install:
-  - git clone -b ${CODE_TAG} --depth 1 https://github.com/kubeflow-pk/pipelines.git
+  - git clone -b ${CODE_TAG} --depth 1 https://github.com/kubeflow-pk/pipelines-0.2.5.git
 
 script:
 
