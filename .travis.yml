@@ -2,11 +2,11 @@ dist: bionic
 
 env:
   global:
-    - IMAGE_NAME=pkskubeflow/ml-pipeline-frontend-amd64:0.2.5
+    - IMAGE_NAME=pkskubeflow/ml-pipeline-frontend:0.2.5
     - CODE_TAG=master
 
 arch:
-  - amd64
+  - arm64
 
 services:
   - docker
